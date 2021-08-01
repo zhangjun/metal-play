@@ -1,0 +1,157 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EEA8AC526B65B76000E992F /* metallib.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA8AC426B65B76000E992F /* metallib.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EEA8AC426B65B76000E992F /* metallib.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = metallib.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1EEA8ABC26B65B76000E992F = {
+			isa = PBXGroup;
+			children = (
+				1EEA8AC326B65B76000E992F /* metallib */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		1EEA8AC326B65B76000E992F /* metallib */ = {
+			isa = PBXGroup;
+			children = (
+				1EEA8AC426B65B76000E992F /* metallib.metal */,
+			);
+			path = metallib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EEA8AC226B65B76000E992F /* metallib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EEA8AC826B65B76000E992F /* Build configuration list for PBXNativeTarget "metallib" */;
+			buildPhases = (
+				1EEA8AC126B65B76000E992F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = metallib;
+			productName = metallib;
+			productType = "com.apple.product-type.metal-library";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EEA8ABD26B65B76000E992F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1EEA8AC226B65B76000E992F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 1EEA8AC026B65B76000E992F /* Build configuration list for PBXProject "metallib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EEA8ABC26B65B76000E992F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EEA8AC226B65B76000E992F /* metallib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EEA8AC126B65B76000E992F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEA8AC526B65B76000E992F /* metallib.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1EEA8AC626B65B76000E992F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1EEA8AC726B65B76000E992F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1EEA8AC926B65B76000E992F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D92M392LA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EEA8ACA26B65B76000E992F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D92M392LA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EEA8AC026B65B76000E992F /* Build configuration list for PBXProject "metallib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEA8AC626B65B76000E992F /* Debug */,
+				1EEA8AC726B65B76000E992F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EEA8AC826B65B76000E992F /* Build configuration list for PBXNativeTarget "metallib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEA8AC926B65B76000E992F /* Debug */,
+				1EEA8ACA26B65B76000E992F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EEA8ABD26B65B76000E992F /* Project object */;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:inferlib/inferlib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:metal-bench/metal-bench.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:metallib/metallib.xcodeproj">
+   </FileRef>
+</Workspace>
